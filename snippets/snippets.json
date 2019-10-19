@@ -7,6 +7,25 @@
             "\n$0\n",
             "#endif"
         ],
-        "description": "insert ifndef C preprocesor"
+        "description": "ifndef C preprocesor body"
+    },
+    "typedef struct": {
+        "prefix": [ "typedef-struct" ],
+        "body": [
+            "typedef struct\ts_$1 {",
+            "\t$0",
+            "}\tt_$1"
+        ],
+        "description": "used to define struct"
+    },
+    "main": {
+        "prefix": [ "main" ],
+        "body": [
+            "int\tmain(int argc, char **argv) {",
+            "\t$0",
+            "}",
+            ""
+        ],
+        "description": "create a main function"
     }
 }
