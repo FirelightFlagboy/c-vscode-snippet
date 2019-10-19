@@ -3,6 +3,7 @@
     "displayName": "C-snippet",
     "description": "my C snippet",
     "version": "0.0.1",
+    "publisher": "firelight-flagboy",
     "engines": {
         "vscode": "^1.39.0"
     },
