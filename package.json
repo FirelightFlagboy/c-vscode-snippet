@@ -2,7 +2,7 @@
     "name": "c-snippet",
     "displayName": "C-snippet",
     "description": "my C snippet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "firelight-flagboy",
     "repository": {
         "type": "git",
