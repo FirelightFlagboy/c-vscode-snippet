@@ -4,6 +4,10 @@
     "description": "my C snippet",
     "version": "0.0.1",
     "publisher": "firelight-flagboy",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/FirelightFlagboy/c-vscode-snippet.git"
+    },
     "engines": {
         "vscode": "^1.39.0"
     },
