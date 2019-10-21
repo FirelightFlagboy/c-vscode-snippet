@@ -2,7 +2,7 @@
     "name": "c-snippet",
     "displayName": "C-snippet",
     "description": "my C snippet",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "firelight-flagboy",
     "repository": "https://github.com/FirelightFlagboy/c-vscode-snippet",
     "engines": {
