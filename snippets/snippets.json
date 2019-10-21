@@ -7,7 +7,7 @@
             "\n$0\n",
             "#endif"
         ],
-        "description": "ifndef C preprocesor body"
+        "description": "ifndef C include guard"
     },
     "typedef struct": {
         "prefix": [ "typedef-struct" ],
@@ -16,7 +16,7 @@
             "\t$0",
             "}\tt_$1"
         ],
-        "description": "used to define struct"
+        "description": "create struct and alias it"
     },
     "main": {
         "prefix": [ "main" ],
