@@ -6,4 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## 0.0.4 2019-10-21
+### Changed
+- `description` field in [snippet](snippets/snippets.json)
+- add a list of available `snippets` in README
