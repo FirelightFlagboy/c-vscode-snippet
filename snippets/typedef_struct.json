@@ -7,6 +7,6 @@
             "\t$0",
             "};"
         ],
-        "description": "used to define struct"
+        "description": "create struct and alias it"
     }
 }

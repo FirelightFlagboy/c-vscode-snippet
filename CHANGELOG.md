@@ -6,6 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## 0.0.4 2019-10-21
+### Changed
+- `description` field in [snippet](snippets/snippets.json)
+- add a list of available `snippets` in README
+
 ## [0.1.0] - 2019-01-14
 ### Modified
 - split `snippets/snippets.json` into independent file `include_guard.json`, `main.json`, `typedef_struct.json`

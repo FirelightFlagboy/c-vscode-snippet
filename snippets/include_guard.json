@@ -7,6 +7,6 @@
             "\n$0\n",
             "#endif"
         ],
-        "description": "ifndef C preprocesor body"
+        "description": "ifndef C include guard"
     }
 }
