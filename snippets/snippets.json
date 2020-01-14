@@ -12,9 +12,10 @@
     "typedef struct": {
         "prefix": [ "typedef-struct" ],
         "body": [
-            "typedef struct\ts_$1 {",
+            "typedef struct\ts_$1 t_$1;",
+            "struct s_$1{",
             "\t$0",
-            "}\tt_$1"
+            "};"
         ],
         "description": "used to define struct"
     },
