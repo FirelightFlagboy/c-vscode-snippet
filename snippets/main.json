@@ -1,0 +1,12 @@
+{
+    "main": {
+        "prefix": [ "main" ],
+        "body": [
+            "int\tmain(int argc, char **argv) {",
+            "\t$0",
+            "}",
+            ""
+        ],
+        "description": "create a main function"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ifndef": {
+        "prefix": [ "#ifndef", "ifndef" ],
+        "body": [
+            "#ifndef ${TM_FILENAME/([\\.-]*)([^\\.^-]*)/${1:+_}${2:/upcase}/g}",
+            "# define ${TM_FILENAME/([\\.-]*)([^\\.^-]*)/${1:+_}${2:/upcase}/g}",
+            "\n$0\n",
+            "#endif"
+        ],
+        "description": "ifndef C preprocesor body"
+    }
+}
