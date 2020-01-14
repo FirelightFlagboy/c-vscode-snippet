@@ -19,3 +19,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - `include_guard.json` contains the include guard scheme for header file
 - `main.json` contains the sheme for `main` function with *argc* and *argv*
 - `typedef_struct.json` contains the sheme for struct declaration prefixed with `s_` and `t_` for **the struct** and **the typedef**
+
+## [0.1.1] - 2019-01-14
+### Modified
+- package.json: edit language for include_guard for c++
