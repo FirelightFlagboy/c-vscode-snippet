@@ -6,4 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## [0.1.0] - 2019-01-14
+### Modified
+- split `snippets/snippets.json` into independent file `include_guard.json`, `main.json`, `typedef_struct.json`
+
+### Added
+- `include_guard.json` contains the include guard scheme for header file
+- `main.json` contains the sheme for `main` function with *argc* and *argv*
+- `typedef_struct.json` contains the sheme for struct declaration prefixed with `s_` and `t_` for **the struct** and **the typedef**

@@ -2,7 +2,7 @@
     "name": "c-snippet",
     "displayName": "C-snippet",
     "description": "my C snippet",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "publisher": "firelight-flagboy",
     "repository": "https://github.com/FirelightFlagboy/c-vscode-snippet",
     "engines": {
@@ -15,7 +15,19 @@
         "snippets": [
             {
                 "language": "c",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/include_guard.json"
+            },
+            {
+                "language": "c",
+                "path": "./snippets/main.json"
+            },
+            {
+                "language": "c",
+                "path": "./snippets/typedef_struct.json"
+            },
+            {
+                "language": "c++",
+                "path": "./snippets/include_guard.json"
             }
         ]
     }
