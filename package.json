@@ -11,13 +11,31 @@
     "categories": [
         "Snippets"
     ],
+    "devDependencies": {
+        "vsce": "1.73.0"
+    },
     "contributes": {
         "snippets": [
-            { "language": "c",      "path": "./c_specific/main.json" },
-            { "language": "c",      "path": "./c_specific/typedef_struct.json" },
-            { "language": "c",      "path": "./shared/include_guard.json" },
-            { "language": "cpp",    "path": "./cpp_specific/coplien_class.json" },
-            { "language": "cpp",    "path": "./shared/include_guard.json" }
+            {
+                "language": "c",
+                "path": "./c_specific/main.json"
+            },
+            {
+                "language": "c",
+                "path": "./c_specific/typedef_struct.json"
+            },
+            {
+                "language": "c",
+                "path": "./shared/include_guard.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./cpp_specific/coplien_class.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./shared/include_guard.json"
+            }
         ]
     }
 }
