@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "package(vsce)",
+            "type": "shell",
+            "command": "npx vsce package"
+        },
+        {
+            "label": "publish(vsce)",
+            "type": "shell",
+            "command": "npx vsce publish"
+        },
+        {
+            "label": "npm install vsce",
+            "type": "shell",
+            "command": "npm i -D",
+            "presentation": {
+                "reveal": "never",
+            }
+        }
+    ]
+}
