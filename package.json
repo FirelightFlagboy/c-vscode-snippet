@@ -2,7 +2,7 @@
     "name": "c-snippet",
     "displayName": "C-snippet",
     "description": "my C snippet",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "publisher": "firelight-flagboy",
     "repository": "https://github.com/FirelightFlagboy/c-vscode-snippet",
     "engines": {
@@ -13,22 +13,11 @@
     ],
     "contributes": {
         "snippets": [
-            {
-                "language": "c",
-                "path": "./snippets/include_guard.json"
-            },
-            {
-                "language": "c",
-                "path": "./snippets/main.json"
-            },
-            {
-                "language": "c",
-                "path": "./snippets/typedef_struct.json"
-            },
-            {
-                "language": "cpp",
-                "path": "./snippets/include_guard.json"
-            }
+            { "language": "c",      "path": "./c_specific/main.json" },
+            { "language": "c",      "path": "./c_specific/typedef_struct.json" },
+            { "language": "c",      "path": "./shared/include_guard.json" },
+            { "language": "cpp",    "path": "./cpp_specific/coplien_class.json" },
+            { "language": "cpp",    "path": "./shared/include_guard.json" }
         ]
     }
 }
