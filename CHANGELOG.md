@@ -50,3 +50,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Modified
 
 - `coplien_class.json`: create public field for the virtaul destructor.
+
+## [1.0.1] - 2020-02-24
