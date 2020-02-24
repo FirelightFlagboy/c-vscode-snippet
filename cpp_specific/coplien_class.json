@@ -7,8 +7,9 @@
             "private:",
             "\t$1();",
             "\t$1($1 const &ref);",
-            "\tvirtual ~$1();",
             "\t$1 &operator=($1 const &ref);",
+            "public:",
+            "\tvirtual ~$1();",
             "};"
         ],
         "description": "create a coplien class"

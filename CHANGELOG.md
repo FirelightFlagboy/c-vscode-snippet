@@ -13,7 +13,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - `description` field in [snippet](snippets/snippets.json)
 - add a list of available `snippets` in README
 
-## [0.1.0] - 2019-01-14
+## [0.1.0] - 2020-01-14
 
 ### Modified
 
@@ -25,13 +25,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - `main.json` contains the sheme for `main` function with *argc* and *argv*
 - `typedef_struct.json` contains the sheme for struct declaration prefixed with `s_` and `t_` for **the struct** and **the typedef**
 
-## [0.1.1] - 2019-01-14
+## [0.1.1] - 2020-01-14
 
 ### Modified
 
 - package.json: edit language for include_guard for c++
 
-## [0.2.0] - 2019-02-04
+## [0.2.0] - 2020-02-04
 
 ### Added
 
@@ -44,3 +44,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - `c++_specific` for snippet only used on C++ language
   - `shared` for snipped used on C/C++ language
 - README: update listing of available snippet for C and C++
+
+## [0.2.1] - 2020-02-22
+
+### Modified
+
+- `coplien_class.json`: create public field for the virtaul destructor.
